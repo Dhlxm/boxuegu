@@ -5,7 +5,7 @@ define(['jquery', 'jqueryCookie', 'nprogress'], function ($, undfined, nprogress
 		//如果有PHPSESSID这个cookie,证明登陆过,转到首页
 		if ($.cookie('PHPSESSID')) {
 			location.href = '/';
-		}
+		} 
 	})();
 
 	//表单提交
