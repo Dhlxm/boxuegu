@@ -1,3 +1,3 @@
-define(['common','aside','nprogress'], function(undefined,undefined,nprogress) {
+define(['common','aside','header','nprogress'], function(undefined,undefined,nprogress,undefined) {
 	nprogress.done();
 });
